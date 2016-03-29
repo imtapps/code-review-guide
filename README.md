@@ -26,6 +26,17 @@
     - Catching `Exception`
     - `except` with no type declared
     - global mutuable objects (including class variables and keyword argument defaults)
+  - remove `self.maxDiff`s
+  - remove comments (TODOs etc)
+  - remove print statements
+  - use `items` instead of `iteritems`
+  - non Python 3 compatable code
 
 
 ## JavaScript / Ember
+
+  - remove `console.log`s
+  - remove `debugger`
+  - no straight ajax calls
+  - no DOM manipulation
+  - use `Ember.computed` instead of `function(){}.property`
