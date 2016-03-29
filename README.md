@@ -10,8 +10,8 @@
   - Can it be refactored?
     - Methods that look large
     - Methods that are deeply nested
-    - Methods/functions that mutate passed in data
-    - Methods/functions that do not return a value
+    - Methods that mutate passed in data
+    - Methods that do not return a value
     - objects that have a lot of instance variables
     - re-declareing a parameter as a local variable
     - tests asserting against large objects
