@@ -15,6 +15,7 @@
     - objects that have a lot of instance variables
     - re-declareing a parameter as a local variable
     - tests asserting against large objects
+    - objects which have internal state modified in a method
 
 
 ## Python / Django
