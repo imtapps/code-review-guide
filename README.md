@@ -6,6 +6,8 @@
   - Is test coverage adequite?
     - How many lines of non-test code can I delete without breaking any tests?
     - Do tests cover both positive and negative scenarios?
+  - Is the code DRY?
+    - Is the code DRY when considering our common libraries, open source libraries, standard libraries, etc
   - Are there any (obvious) linting violations?
   - Can it be refactored?
     - Methods that look large
@@ -15,6 +17,7 @@
     - objects that have a lot of instance variables
     - re-declareing a parameter as a local variable
     - tests asserting against large objects
+  - Equality vs Inequality checks - Favor equality (avoid `if not else`)
 
 
 ## Python / Django
