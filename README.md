@@ -17,6 +17,7 @@
     - objects that have a lot of instance variables
     - re-declareing a parameter as a local variable
     - tests asserting against large objects
+    - objects which have internal state modified in a method
   - Equality vs Inequality checks - Favor equality (avoid `if not else`)
 
 
