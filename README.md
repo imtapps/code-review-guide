@@ -44,3 +44,4 @@
   - no straight ajax calls
   - no DOM manipulation
   - use `Ember.computed` instead of `function(){}.property`
+  - one `.less` file per `.hbs` file
