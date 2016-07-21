@@ -11,6 +11,7 @@
   - Are there any (obvious) linting violations?
   - Can it be refactored?
     - Methods that look large
+    - Methods that add new attributes to the object
     - Methods that are deeply nested
     - Methods that mutate passed in data
     - Methods that do not return a value
