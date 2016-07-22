@@ -20,6 +20,7 @@
     - tests asserting against large objects
     - objects which have internal state modified in a method
   - Equality vs Inequality checks - Favor equality (avoid `if not else`)
+  - Are there any events that should be logged to the Activity log?
 
 
 ## Python / Django
@@ -46,3 +47,4 @@
   - no DOM manipulation
   - use `Ember.computed` instead of `function(){}.property`
   - one `.less` file per `.hbs` file
+  - are actions being logged to Google Analytics
