@@ -21,6 +21,7 @@
     - objects which have internal state modified in a method
   - Equality vs Inequality checks - Favor equality (avoid `if not else`)
   - Are there any events that should be logged to the Activity log?
+  - Do not "do things" when handling exceptions (don't call APIs, Query the database, etc)
 
 
 ## Python / Django
