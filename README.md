@@ -23,6 +23,10 @@
   - Are there any events that should be logged to the Activity log?
   - Do not "do things" when handling exceptions (don't call APIs, Query the database, etc)
 
+## Dependencies
+
+  - lock in versions - be specific but not exact.
+  - Have a conversation beforehand to make sure new dependencies are a good idea
 
 ## Python / Django
 
