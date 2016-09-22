@@ -42,6 +42,8 @@
   - remove print statements
   - use `items` instead of `iteritems`
   - non Python 3 compatable code
+  - using `# noqa` correctly? (use specific error code - do not use `# flake8: noqa` - that will turn off for entire file)
+  - if updating code near an existing `noqa` refactor that code
 
 
 ## JavaScript / Ember
