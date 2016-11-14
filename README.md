@@ -50,6 +50,7 @@
   - non Python 3 compatable code
   - using `# noqa` correctly? (use specific error code - do not use `# flake8: noqa` - that will turn off for entire file)
   - if updating code near an existing `noqa` refactor that code
+  - do not use ANY state in Manager objects
 
 
 ## JavaScript / Ember
