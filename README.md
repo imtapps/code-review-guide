@@ -22,9 +22,12 @@
   - Equality vs Inequality checks - Favor equality (avoid `if not else`)
   - Are there any events that should be logged to the Activity log?
   - Do not "do things" when handling exceptions (don't call APIs, Query the database, etc)
+
+### Naming
   - class names should be nouns
   - method / function names should be verbs
   - property / attribute names should be nouns
+  - avoid generic names (ie: handle/handler, process/processor, etc)
 
 ## Dependencies
 
