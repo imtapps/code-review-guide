@@ -3,7 +3,7 @@
 
 ## Overall Questions
 
-  - Is test coverage adequite?
+  - Is test coverage adequate?
     - How many lines of non-test code can I delete without breaking any tests?
     - Do tests cover both positive and negative scenarios?
   - Is the code DRY?
@@ -16,7 +16,7 @@
     - Methods that mutate passed in data
     - Methods that do not return a value
     - objects that have a lot of instance variables
-    - re-declareing a parameter as a local variable
+    - re-declaring a parameter as a local variable
     - tests asserting against large objects
     - objects which have internal state modified in a method
   - Equality vs Inequality checks - Favor equality (avoid `if not else`)
@@ -27,7 +27,7 @@
   - class names should be nouns
   - method / function names should be verbs
   - property / attribute names should be nouns
-  - avoid generic names (ie: handle/handler, process/processor, etc)
+  - avoid generic names (i.e. handle/handler, process/processor, etc)
 
 ## Dependencies
 
@@ -42,12 +42,12 @@
     - creating json by hand (instead of using DRF serializers)
     - Catching `Exception`
     - `except` with no type declared
-    - global mutuable objects (including class variables and keyword argument defaults)
+    - global mutable objects (including class variables and keyword argument defaults)
   - remove `self.maxDiff`s
   - remove comments (TODOs etc)
   - remove print statements
   - use `items` instead of `iteritems`
-  - non Python 3 compatable code
+  - non Python 3 compatible code
   - using `# noqa` correctly? (use specific error code - do not use `# flake8: noqa` - that will turn off for entire file)
   - if updating code near an existing `noqa` refactor that code
   - do not use ANY state in Manager objects
