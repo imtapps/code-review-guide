@@ -61,5 +61,10 @@
   - no straight ajax calls
   - no DOM manipulation
   - use `Ember.computed` instead of `function(){}.property`
-  - one `.less` file per `.hbs` file
   - are actions being logged to Google Analytics
+  - use `find` instead of `$()` in acceptance tests
+
+## Style / Design
+
+  - one `.less` file per `.hbs` file
+  - reuse existing classes
