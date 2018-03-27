@@ -53,6 +53,9 @@
   - do not use ANY state in Manager objects
   - for fields being used in queries - are those fields indexed? Should they be?
 
+## Python Eggs
+
+  - Use `splitlines()` instead of `split("\n")` in `setup.py`
 
 ## JavaScript / Ember
 
