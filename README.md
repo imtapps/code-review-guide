@@ -56,6 +56,7 @@
 ## Python Eggs
 
   - Use `splitlines()` instead of `split("\n")` in `setup.py`
+    e.g. `install_requires=open('requirements/requirements.txt').read().splitlines()`
 
 ## JavaScript / Ember
 
