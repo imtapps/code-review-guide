@@ -52,6 +52,7 @@
   - if updating code near an existing `noqa` refactor that code
   - do not use ANY state in Manager objects
   - for fields being used in queries - are those fields indexed? Should they be?
+  - are models in their own file?
 
 
 ## JavaScript / Ember
